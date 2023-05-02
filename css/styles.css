@@ -50,12 +50,15 @@ img {
 .container-header {
     display: flex;
     align-items: center;
-    padding-top: 24px;
-    padding-bottom: 24px;
+
 }
 .nav {
     display: flex;
       align-items: center;
+}
+.menu-item {
+   padding-top: 24px;
+   padding-bottom: 24px;  
 }
 .menu {
     display: flex;
@@ -64,11 +67,12 @@ img {
 .menu-item:not(:last-child) {
     margin-right: 40px;
 }
-.logo-header {
+
+.logo {
+    padding-top: 24px;
+    padding-bottom: 24px;
     margin-right: 76px;
     width: 115px;
-}
-.logo {
     color: var(--color-action);
     font-family: 'Raleway',sans-serif;
     font-weight: 800;
@@ -100,6 +104,10 @@ img {
 .info-container {
     display: flex;
    
+}
+.info-address {
+       padding-top: 24px;
+    padding-bottom: 24px; 
 }
 .link-info {
     
