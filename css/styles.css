@@ -105,8 +105,7 @@ img {
    
 }
 .link-info {
-   padding-top: 24px;
-   padding-bottom: 24px;  
+  
     color: var(--color-primary);
     line-height: 1.5;
     letter-spacing: 0.02em;
