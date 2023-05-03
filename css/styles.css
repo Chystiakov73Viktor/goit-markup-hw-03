@@ -69,7 +69,6 @@ img {
     padding-top: 24px;
     padding-bottom: 24px;
     margin-right: 76px;
-    width: 115px;
     color: var(--color-action);
     font-family: 'Raleway',sans-serif;
     font-weight: 800;
@@ -83,8 +82,9 @@ img {
 }
 
 .menu-link {
-      padding-top: 24px;
-   padding-bottom: 24px;
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
     color: var(--color-secondary);
     font-weight: 500;
     font-size: 16px;
@@ -290,6 +290,13 @@ img {
 .logo-footer {
     display: inline-block;
     margin-bottom: 16px;
+    color: var(--color-action);
+    font-family: 'Raleway',sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase; 
 }
 .accent {
     color: var(--color-light);
@@ -297,6 +304,7 @@ img {
 .footer-text {
     width: 264px;
     color: var(--color-light);
+    line-height: 1.5;
 }
 /*portfolio*/
 
